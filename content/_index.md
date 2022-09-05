@@ -1,0 +1,3 @@
++++
++++
+... and a computational biologist in Stockholm, Sweden. As a bioinformatician for the [National Genomics Infrastructure](https://ngisweden.scilifelab.se), I create and maintain analysis pipelines, develop new research software or web applications and improve our internal data engineering solutions. Essentially modern software engineering in combination with DNA, the oldest programming language on earth! 

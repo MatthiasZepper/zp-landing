@@ -1,0 +1,23 @@
+base_url = "https://www.matthias-zepper.de"
+title = "Welcome on Matthias personal website"
+
+compile_sass = true
+
+highlight_code = false
+
+build_search_index = false
+
+[extra]
+greeting = "hej, hej!"
+
+iam = "I am"
+
+links = [
+    { title = "E-Mail", url = "mailto:hello_website@mail.matthias-zepper.de", iconset = "fas", icon = "envelope" },
+    { title = "GitHub", url = "https://github.com/matthiaszepper", icon = "github" },
+    { title = "Twitter", url = "https://twitter.com/matthiaszepper", icon = "twitter" }
+]
+
+[extra.author]
+name = "Matthias"
+
