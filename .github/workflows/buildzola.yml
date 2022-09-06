@@ -1,0 +1,21 @@
+on:
+  workflow_dispatch:
+
+name: Build
+jobs:
+  build:
+    name: Build with minimal options
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Build with the latest action rev
+      uses: shalzz/zola-deploy-action@master
+      env:
+        BUILD_ONLY: true
+        BUILD_DIR: .
+        OUT_DIR: public
+    - name: Create an artifact of the previously built HTML
+      uses: actions/upload-artifact@v3
+      with:
+        name: WebsiteHTML
+        path: public
